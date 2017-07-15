@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Droid", "BaseApp.Droid\BaseApp.Droid.csproj", "{B747BBE2-8CB0-48F5-B596-6B2AEE824A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseApp.Core", "BaseApp.Core\BaseApp.Core.csproj", "{76293E75-31F1-4D7B-964E-55855158A620}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{03C0A287-D9FB-4A45-8F46-752888FBDC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Core", "Common.Core\Common.Core.csproj", "{3C697232-BC6E-495E-B0BF-ADB61DAD2C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Droid", "Common.Droid\Common.Droid.csproj", "{9FF87718-F40C-4D9C-9F56-1B7DCBAC39F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B747BBE2-8CB0-48F5-B596-6B2AEE824A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B747BBE2-8CB0-48F5-B596-6B2AEE824A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B747BBE2-8CB0-48F5-B596-6B2AEE824A90}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B747BBE2-8CB0-48F5-B596-6B2AEE824A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B747BBE2-8CB0-48F5-B596-6B2AEE824A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B747BBE2-8CB0-48F5-B596-6B2AEE824A90}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{76293E75-31F1-4D7B-964E-55855158A620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76293E75-31F1-4D7B-964E-55855158A620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76293E75-31F1-4D7B-964E-55855158A620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76293E75-31F1-4D7B-964E-55855158A620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C697232-BC6E-495E-B0BF-ADB61DAD2C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C697232-BC6E-495E-B0BF-ADB61DAD2C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C697232-BC6E-495E-B0BF-ADB61DAD2C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C697232-BC6E-495E-B0BF-ADB61DAD2C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF87718-F40C-4D9C-9F56-1B7DCBAC39F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF87718-F40C-4D9C-9F56-1B7DCBAC39F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF87718-F40C-4D9C-9F56-1B7DCBAC39F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF87718-F40C-4D9C-9F56-1B7DCBAC39F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C697232-BC6E-495E-B0BF-ADB61DAD2C90} = {03C0A287-D9FB-4A45-8F46-752888FBDC94}
+		{9FF87718-F40C-4D9C-9F56-1B7DCBAC39F2} = {03C0A287-D9FB-4A45-8F46-752888FBDC94}
+	EndGlobalSection
+EndGlobal
